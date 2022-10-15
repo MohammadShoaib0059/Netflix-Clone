@@ -1,0 +1,294 @@
+.background {
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(./Images/Netflix-background-.jpg);
+    background-position: center;
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    height: 900px;
+}
+
+header img {
+    width: 10%;
+    height: 30%;
+}
+
+header .dropdown {
+    position: absolute;
+    top: 0px;
+    right: 120px;
+    color: #ffff;
+    padding: 10px;
+}
+
+header #dropdown {
+    width: 120px;
+}
+
+header button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 100px;
+
+}
+
+header .dropdown a {
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.container {
+    position: absolute;
+    top: 270px;
+    left: 130px;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    position: absolute;
+    top: 510px;
+    left: 500px;
+    width: 80vh;
+
+}
+
+hr {
+    margin-top: 100px;
+    color: white;
+    padding: 3px;
+    border: gray;
+    border-radius: 20px;
+}
+
+.hr hr {
+    margin-top: 30px;
+    color: white;
+    border: gray;
+}
+
+.content-1 {
+    display: flex;
+    margin-top: 80px;
+    color: #ffff;
+    margin-bottom: 80px;
+}
+
+.content-1 img {
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(./Images/tv-inner.jpg);
+    background-size: 460px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content-1 img {
+    width: 500px;
+    margin-left: 150px;
+}
+
+.content {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.content h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.content h3 {
+    font-size: 30px;
+}
+
+#FAQs {
+    width: 700px;
+    position: absolute;
+    left: 400px;
+
+
+}
+
+.quesetions h1 {
+    position: relative;
+    left: 500px;
+    color: #ffff;
+}
+
+.title {
+    font-size: 30px;
+    text-decoration: none;
+    color: #ffff;
+    margin-left: 10px;
+
+}
+
+#title-p {
+    font-size: 18px;
+    color: #ffff;
+}
+
+#item {
+    margin-top: 10px;
+    background-color: rgb(56, 55, 55);
+}
+
+footer hr {
+    margin-top: 30px;
+    color: white;
+    border: gray;
+}
+
+.footer-header a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 23px;
+
+}
+
+.footer-links {
+    color: #ffff;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 15px;
+    display: block;
+}
+
+footer .dropdown-2 a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width:700px) {
+
+    * {
+        max-width: 375px;
+    }
+
+    header img {
+        width: 20%;
+        height: 40%;
+        margin: 10px;
+    }
+
+    header .dropdown {
+        position: absolute;
+        top: 0px;
+        right: 90px;
+        color: #ffff;
+        padding: 10px;
+    }
+
+    header button {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        width: 80px;
+        padding: 5px;
+    }
+
+    .background {
+        background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(./Images/Netflix-background-.jpg);
+        background-position: center;
+        background-size: 1100px;
+        background-repeat: no-repeat;
+        height: 600px;
+    }
+
+    .container {
+        position: absolute;
+        top: 150px;
+        left: 10px;
+        text-align: center;
+    }
+
+    .container h1 {
+        font-size: 35px;
+    }
+
+    .container h3 {
+        font-size: 23px;
+    }
+
+    .container h6 {
+        font-size: 17px;
+    }
+
+    .input-group {
+        position: absolute;
+        top: 360px;
+        left: 0px;
+        width: 200vh;
+    }
+
+    hr {
+        margin-top: 50px;
+        color: white;
+        padding: 3px;
+        border: gray;
+        border-radius: 20px;
+    }
+
+    .content-1 {
+        display: block;
+        margin-top: 30px;
+        color: #ffff;
+        margin-bottom: 30px;
+    }
+
+    .content h1 {
+        font-size: 30px;
+
+    }
+
+    .content {
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+
+    .content h3 {
+        font-size: 20px;
+    }
+
+    .content-1 img {
+        width: 300px;
+        margin-left: 50px;
+    }
+
+    #FAQs {
+        width: 700px;
+        position: absolute;
+        left: 10px;
+
+
+    }
+
+    .quesetions h1 {
+        position: relative;
+        left: 15px;
+        color: #ffff;
+    }
+
+    .title {
+        font-size: 23px;
+        text-decoration: none;
+        color: #ffff;
+        margin-left: 10px;
+
+    }
+
+    #title-p {
+        font-size: 16px;
+        color: #ffff;
+    }
+
+    #item {
+        margin-top: 10px;
+        background-color: rgb(56, 55, 55);
+    }
+}
